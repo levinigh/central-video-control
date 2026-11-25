@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "campusId": "mcdougall",
+  "campusName": "McDougall",
+  "environment": "production",
+  "switcher": {
+    "model": null,
+    "host": null,
+    "port": 9910
+  },
+  "cameras": [],
+  "sources": [],
+  "screens": [],
+  "routing": [],
+  "ndi": {
+    "enabled": false,
+    "sources": []
+  },
+  "operator": {
+    "sourceRow": [],
+    "keyButtons": [],
+    "defaultView": "operator"
+  },
+  "notes": [
+    "Template only. Populate values after verifying the actual McDougall equipment.",
+    "Do not copy example IP addresses from the upstream HANDOFF.md.",
+    "Keep credentials out of this file. Use macOS Keychain for secrets."
+  ]
+}
