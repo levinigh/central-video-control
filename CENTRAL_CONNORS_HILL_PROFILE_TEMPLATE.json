@@ -4,7 +4,7 @@
   "campusName": "Connors Hill",
   "environment": "production",
   "switcher": {
-    "model": null,
+    "model": "Blackmagic ATEM Mini Extreme ISO G2",
     "host": null,
     "port": 9910
   },
@@ -22,7 +22,8 @@
     "defaultView": "operator"
   },
   "notes": [
-    "Template only. Populate values after verifying the actual Connors Hill equipment.",
+    "Confirmed switcher model: Blackmagic ATEM Mini Extreme ISO G2.",
+    "Switcher host/IP and all other hardware details remain unverified.",
     "Do not copy example IP addresses from the upstream HANDOFF.md.",
     "Keep credentials out of this file. Use macOS Keychain for secrets."
   ]
