@@ -55,6 +55,7 @@ Adapt the open-source Churchfront Video macOS application for Central Baptist Ch
 - Connors Hill: Apple Mac mini M2 (user confirmed).
 - Southeast: Apple Mac mini M2 (user confirmed).
 - Sherwood Park: Apple Mac mini M2 (user confirmed).
+- McDougall: Apple Mac mini M4 (user confirmed).
 - These are workstation model confirmations only; macOS versions, RAM/storage, and network details remain unverified.
 
 ## Known upstream baseline
