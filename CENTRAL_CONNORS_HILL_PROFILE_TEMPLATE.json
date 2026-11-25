@@ -25,6 +25,12 @@
     "Confirmed switcher model: Blackmagic ATEM Mini Extreme ISO G2.",
     "Switcher host/IP and all other hardware details remain unverified.",
     "Do not copy example IP addresses from the upstream HANDOFF.md.",
-    "Keep credentials out of this file. Use macOS Keychain for secrets."
-  ]
+    "Keep credentials out of this file. Use macOS Keychain for secrets.",
+    "Control computer: Apple Mac mini M2 (user confirmed)."
+  ],
+  "controlComputer": {
+    "model": "Apple Mac mini M2",
+    "campus": "Connors Hill",
+    "verification": "User confirmed"
+  }
 }
