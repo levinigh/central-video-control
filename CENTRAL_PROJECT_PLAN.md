@@ -1,11 +1,11 @@
 # Central Video Control — Project Plan
 
 ## Purpose
-Adapt the open-source Churchfront Video macOS application for Central Baptist Church's video control workflows across five campuses, beginning with McDougall.
+Adapt the open-source Churchfront Video macOS application for Central Baptist Church's video control workflows across five campuses, beginning with Connors Hill.
 
 ## Campus rollout
-1. McDougall (initial build and validation)
-2. Connors Hill
+1. Connors Hill (initial build and validation)
+2. McDougall
 3. Southeast
 4. Sherwood Park
 5. Central
@@ -36,9 +36,9 @@ Adapt the open-source Churchfront Video macOS application for Central Baptist Ch
 - Add validation and clear active-campus indicators.
 - Do not introduce network synchronization until conflict handling, permissions, and offline behavior are specified.
 
-### Phase 3 — McDougall implementation
+### Phase 3 — Connors Hill implementation
 - Capture confirmed ATEM model/IP, camera models/IPs, input labels, screen/aux routes, NDI source names, and operator button needs.
-- Build a McDougall profile from verified details only.
+- Build a Connors Hill profile from verified details only.
 - Test using mock devices first, then conduct supervised read-only discovery, then controlled command testing.
 
 ### Phase 4 — Volunteer operator experience
@@ -58,10 +58,10 @@ Adapt the open-source Churchfront Video macOS application for Central Baptist Ch
 - NDI runtime loaded at runtime by the bridge.
 - Original configuration is JSON under the user's Application Support directory.
 - Original project includes operator and engineer interfaces, tests, and mock ATEM tooling.
-- Existing upstream handoff notes describe a tested ATEM 2 M/E Constellation HD and three Canon cameras at another church setup. Those IPs and hardware assignments are not Central/McDougall configuration and must not be reused.
+- Existing upstream handoff notes describe a tested ATEM 2 M/E Constellation HD and three Canon cameras at another church setup. Those IPs and hardware assignments are not Central/Connors Hill configuration and must not be reused.
 
-## Open questions to resolve before wiring McDougall
-- Exact ATEM model and control IP at McDougall.
+## Open questions to resolve before wiring Connors Hill
+- Exact ATEM model and control IP at Connors Hill.
 - Camera models, control protocols, IPs, and ATEM input assignments.
 - Actual source labels and which sources volunteers need.
 - Screen destinations and ATEM aux routing requirements.
@@ -69,11 +69,11 @@ Adapt the open-source Churchfront Video macOS application for Central Baptist Ch
 - Mac model/macOS version and NDI runtime installation.
 - Desired Central app name and visual identity.
 
-## Definition of done for McDougall pilot
+## Definition of done for Connors Hill pilot
 - App builds and launches on the target Mac.
 - Correct campus identity is visible and cannot be confused with another campus.
 - Correct hardware is discovered and displayed.
 - Read-only state agrees with the physical switcher before control testing.
 - Each enabled action is tested under supervision with a rollback plan.
 - Volunteer operator workflow is documented and tested by someone other than the developer.
-- No other campus profile can be affected by a McDougall session.
+- No other campus profile can be affected by a Connors Hill session.
