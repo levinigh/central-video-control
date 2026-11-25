@@ -22,8 +22,13 @@
     "defaultView": "operator"
   },
   "notes": [
-    "Template only. Populate values after verifying the actual McDougall equipment.",
-    "Do not copy example IP addresses from the upstream HANDOFF.md.",
+    "Control computer: Apple Mac mini M4 (user confirmed).",
+    "Switcher, cameras, network and routing details remain unverified.",
     "Keep credentials out of this file. Use macOS Keychain for secrets."
-  ]
+  ],
+  "controlComputer": {
+    "model": "Apple Mac mini M4",
+    "campus": "McDougall",
+    "verification": "User confirmed"
+  }
 }
