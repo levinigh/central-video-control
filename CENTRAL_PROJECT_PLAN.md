@@ -1,14 +1,13 @@
 # Central Video Control — Project Plan
 
 ## Purpose
-Adapt the open-source Churchfront Video macOS application for Central Baptist Church's video control workflows across five campuses, beginning with Connors Hill.
+Adapt the open-source Churchfront Video macOS application for Central Baptist Church's video control workflows across four campuses, beginning with Connors Hill.
 
 ## Campus rollout
 1. Connors Hill (initial build and validation)
 2. McDougall
 3. Southeast
 4. Sherwood Park
-5. Central
 
 ## Architectural principles
 - Each campus must be able to operate locally on Sunday without relying on internet connectivity.
